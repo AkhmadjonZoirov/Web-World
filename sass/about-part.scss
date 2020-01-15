@@ -1,0 +1,21 @@
+$white:white;
+$black: black;
+$red:red;
+@mixin column ($width, $height, $bg, $color, $padding) {
+    width: $width;
+    height: $height;
+    background-color: $bg;
+    color: $color;
+    padding: $padding;
+}
+@mixin button ($width, $height, $bg, $color, $br-rad, $padding) {
+    width: $width;
+    height: $height;
+    background-color: $bg;
+    color: $color;
+    border-radius: $br-rad;
+    padding: $padding;
+}
+i {
+    color: black;
+}
