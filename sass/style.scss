@@ -169,7 +169,14 @@ $red:red;
   to {
     opacity: 1;
     transform: translateY(0); } }
-    @keyframes fadeInFromBottom {
+@keyframes fade-up-img {
+      from {
+        opacity: 0;
+        transform: translateY(-80px); }
+      to {
+        opacity: 1;
+        transform: translateY(0); } }
+@keyframes fadeInFromBottom {
       from {
         opacity: 0;
         transform: translateY(20px); }
