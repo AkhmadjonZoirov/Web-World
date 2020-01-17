@@ -11,6 +11,7 @@
     --red-color: #fc033d;
     --white-color: #eee;
     --extra-color:linear-gradient(to right,rgba(43, 226, 48, 0.7),rgba(33, 150, 243, 0.6));
+    --pink-color:#ff00cc;
 }
 
 body {
@@ -25,7 +26,7 @@ body {
     font-size: 3vh;
 }
 body p {
-    font-size: 3vh;
+    font-size: 17px;
     
 }
 #f-w-1 {
@@ -209,7 +210,11 @@ nav #nav-links a {
 }
 .display-bottom {
     animation: 1s fadeInFromBottom cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;
-    animation-delay: .8s;
+    animation-delay: 4s;
+}
+.display-carousel {
+    animation: 1s carousel cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;
+    animation-delay: 4s;
 }
 .display-bottom:hover {
     transform: translateY(-10%) ;
@@ -219,6 +224,26 @@ nav #nav-links a {
     margin-left: 20%;
     margin-top: 15vh;
     /* margin: auto; */
+}
+.logo {
+    width: 10vh;
+    margin-top: 1.9vh;
+}
+nav>div:first-of-type {
+    display: flex;
+    margin-top: 3.5vh;
+}
+nav>div:nth-child(2) {
+    margin-right: 2vh;
+}
+nav a {
+    margin-left: 1.5vh;
+    margin-top: 3vh;
+}
+
+nav h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3.5vh;
 }
 
 
@@ -537,12 +562,27 @@ nav #nav-links a {
     justify-content: center;
     justify-content: space-around;
 }
-#work-lovers img {
-    color: black;
-    background-color: #ff00cc;
-    border: 1px solid white;
-    border-radius: 5px;
+.font-1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 7vh;
+    color: var(--pink-color);
 }
+.font-2 {
+    font-family: 'Marck Script', cursive;
+    font-size: 7vh;
+    color: var(--pink-color);
+}
+.font-3 {
+    font-family: 'Sacramento', cursive;
+    font-size: 7vh;
+    color: var(--pink-color);
+}
+.font-4 {
+    font-family: 'Parisienne', cursive;
+    font-size: 7vh;
+    color: var(--pink-color);
+}
+
 /* ------------------------------------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------------- */
 /* --------------------------- CONTACT US        ------------------------------------------------------- */
@@ -583,7 +623,7 @@ nav #nav-links a {
 #table-icons i {
     color: white;
     margin: 2vh;
-    font-size: 5vh;
+    font-size: 4vh;
 }
 .input {
     width: 50vh;

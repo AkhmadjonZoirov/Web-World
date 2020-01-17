@@ -131,13 +131,20 @@ $red:red;
   to {
     opacity: 1;
     transform: translateX(0) rotate(0deg); } }
-    @keyframes fade-in-right {
+@keyframes fade-in-right {
       from {
         opacity: 0;
         transform: translateX(100vw) rotate(0deg); }
       to {
         opacity: 1;
         transform: translateX(0) rotate(0deg); } }
+@keyframes carousel {
+          from {
+            opacity: 0;
+            transform:  rotate(0deg); }
+          to {
+            opacity: 0;
+            transform: rotate(180deg); } }
 
 @keyframes grow1 {
   from {
