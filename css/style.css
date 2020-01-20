@@ -596,8 +596,13 @@
   }
 }
 @keyframes carousel {
-  from {
+  0% {
     transform: translate3d(0);
+    transition: all 10s ease 0s;
+  }
+  100% {
+    transform: translate3d(-1300px, 0px, 0px);
+    transition: all 10s ease 0s;
   }
   to {
     transform: translate3d(-1300px, 0px, 0px);
